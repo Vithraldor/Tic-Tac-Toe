@@ -8,7 +8,7 @@
 #define boardSize 3
 
 // Used to determine which mode to initiate
-// 0 for player vs AI, 1 for player vs player, -1 for invalid value
+// 1 for player vs AI, 2 for player vs player
 extern int gameMode;
 
 // ******************** Classes *************************

@@ -19,11 +19,13 @@ void printStartMenu() {
 		if (gameModeUserChoice == vsAI) {
 			std::cout << "\nInitializing AI game...\n";
 			validChoice = true;
+			gameMode = vsAI;
 			return;
 
 		} else if (gameModeUserChoice == vsPerson) {
 			std::cout << "\nInitializing 2-player game...\n";
 			validChoice = true;
+			gameMode = vsPerson;
 			return;
 
 		} else {
