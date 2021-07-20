@@ -13,13 +13,15 @@ extern int gameMode;
 
 // ******************** Classes *************************
 // Forward declaration of class gameState, defined in gameState.h
-// Un-comment this when getting ready to code
-// class GameState;
+class GameState;
 
-// ******************** Functions *************************
+// ******************** Function Prototypes *************************
 // Prototype of playMove function:
 // Un-comment this when getting ready to code
 // void playMove(GameState&)
 
-// Prototype of menu printing function:
+// Prints starting menu that allows users to select to play vs AI or another person
 void printStartMenu();
+
+// Prints the board:
+void printBoard();
